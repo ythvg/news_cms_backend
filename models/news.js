@@ -3,6 +3,7 @@ var Schema = mongoose.Schema;
 
 var NewsSchema = new Schema({
     title: String,
+    ctime: String,
     content: String
 });
 
